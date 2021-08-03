@@ -25,34 +25,34 @@ the installation. Docker Desktop does not run automatically after we installed i
 search for it on our computer and run the docker.
 
 
-![adding configuration](screenshots/add_configuration.png)
+![adding configuration](screenshots/add_configuration.jpg)
 
 After the configuration, we can run the project. If the project is running successfully, we can connect our MSQL
 database to our project. We go to View, then Tool Windows; finally, we choose Database. Here, we click on the + sign, on
 Data Source, then on MYSQL. We give our database a name: "homesData". The port needs to be set to 32000. We give "root"
 as user, and "root" as password. Finally, we can click on Test Connection, then Apply and OK.
 
-![connecting database](screenshots/database.png)
+![connecting database](screenshots/database.jpg)
 
 After these steps, we need to add an interpreter. We choose Docker Compose, give the path to docker-compose.yml and
 select app as a service. Finally, we click on OK. Now, we are able to choose the newly added interpreter.
 
-![adding interpreter](screenshots/add_interpreter.png)
+![adding interpreter](screenshots/add_interpreter.jpg)
 
 We run the app again, then in order to see the website, we type "http://localhost:5000" into the address bar of our
 internet browser.
 
 # Postman Screenshot
 
-![postman request output](screenshots/postman.PNG)
+![postman request output](screenshots/postman.jpg)
 
 # SQL Data Screenshot
 
-![pycharm data query](screenshots/query.PNG)
+![pycharm data query](screenshots/query.jpg)
 
 # Bootstrap HTML template
 
-![bootstrap data](screenshots/bootstrap.PNG)
+![bootstrap data](screenshots/bootstrap.jpg)
 
 # login page template
 
